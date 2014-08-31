@@ -26,7 +26,7 @@ app.use('/goodbye', function(req, res) {
 });
 
 app.use(function(req, res) {
-  res.end();
+  res.end('end');
 });
 
 app.listen(3000, function() {
