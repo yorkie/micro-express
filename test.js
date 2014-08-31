@@ -22,7 +22,7 @@ app.use('/hello', function(req, res) {
 });
 
 app.use('/goodbye', function(req, res) {
-  res.write('goodbye');
+  res.end('goodbye');
 });
 
 app.use(function(req, res) {
